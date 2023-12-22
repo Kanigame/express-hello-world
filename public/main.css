@@ -19,7 +19,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 50px;
   animation:
-  animated-text 1.2s steps(17, end) 1s 1 normal both
+    animated-text 1.2s steps(17, end) 1s 1 normal both
 }
 
 /* text animation */
@@ -27,6 +27,7 @@ body {
   from {
     width: 0;
   }
+
   to {
     width: 100%;
   }
@@ -34,4 +35,9 @@ body {
 
 #particles-js {
   height: 100vh;
+}
+
+span {
+  font-size: smaller;
+  color: lightblue;
 }
